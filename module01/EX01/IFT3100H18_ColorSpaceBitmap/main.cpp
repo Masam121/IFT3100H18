@@ -101,13 +101,13 @@ int main(int argc, char* argv[])
   std::string filename = ss.str();
 
   // ouverture du fichier en mode écriture
-  FILE* file = fopen(filename.c_str(), "write");
+  std::FILE* file = std::fopen(filename.c_str(), "w");
 
   // entête du ficher pour une image avec un espace de couleur binaire (P1 pour bitmap)
-  fprintf(file, "P1\n");
+  std::fprintf(file, "P1\n");
 
   // largeur et hauteur de l'image dans l'entête
-  fprintf(file, "%i %i\n", width, height);
+  std::fprintf(file, "%i %i\n", width, height);
 
   // écriture des pixels dans le fichier image
   for (y = 0; y < height; ++y)
@@ -116,11 +116,11 @@ int main(int argc, char* argv[])
     {
       index = y * width + x;
 
-      fprintf(file, "%i ", static_cast<int>(pixel[index]));
+      std::fprintf(file, "%i ", static_cast<int>(pixel[index]));
     }
-    fprintf(file, "\n");
+    std::fprintf(file, "\n");
   }
 
   // fermeture du fichier
-  fclose(file);
+  std::fclose(file);
 }
