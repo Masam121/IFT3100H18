@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <fstream>
 #include <vector>
 
 // espace de couleur
@@ -93,21 +94,20 @@ int main(int argc, char* argv[])
 
   // 5. sauvegarde des pixels dans un fichier image
 
-  // nom du fichier
+  // nom du fichier image de type .pbm (portable bitmap)
   std::stringstream ss;
-  ss << "chessboard" << width << "x" << height << ".pbm";
-
-  // création d'un fichier image de type pbm (portable bitmap)
+  ss << "image" << width << "x" << height << ".pbm";
   std::string filename = ss.str();
 
-  // ouverture du fichier en mode écriture
-  std::FILE* file = std::fopen(filename.c_str(), "w");
+  // déclaration et ouverture du fichier en mode écriture
+  std::ofstream file;
+  file.open(filename, std::ios::out);
 
   // entête du ficher pour une image avec un espace de couleur binaire (P1 pour bitmap)
-  std::fprintf(file, "P1\n");
+  file << "P1\n";
 
-  // largeur et hauteur de l'image dans l'entête
-  std::fprintf(file, "%i %i\n", width, height);
+  // largeur et hauteur de l'image dans la seconde ligne de l'entête
+  file << width << " " << height << "\n";
 
   // écriture des pixels dans le fichier image
   for (y = 0; y < height; ++y)
@@ -116,11 +116,11 @@ int main(int argc, char* argv[])
     {
       index = y * width + x;
 
-      std::fprintf(file, "%i ", static_cast<int>(pixel[index]));
+      file << pixel[index] << " ";
     }
-    std::fprintf(file, "\n");
+    file << "\n";
   }
 
   // fermeture du fichier
-  std::fclose(file);
+  file.close();
 }
