@@ -86,9 +86,9 @@ int main(int argc, char* argv[])
     {
       index = y * width + x;
 
-      std::cout << pixel[index] << " ";
+      std::cout << pixel[index] << ' ';
     }
-    std::cout << std::endl;
+    std::cout << '\n';
   }
 
 
@@ -104,10 +104,10 @@ int main(int argc, char* argv[])
   file.open(filename, std::ios::out);
 
   // entête du ficher pour une image avec un espace de couleur binaire (P1 pour bitmap)
-  file << "P1" << std::endl;
+  file << "P1\n";
 
   // largeur et hauteur de l'image sur la seconde ligne de l'entête
-  file << width << " " << height << std::endl;
+  file << width << ' ' << height << '\n';
 
   // écriture des pixels dans le fichier image
   for (y = 0; y < height; ++y)
@@ -116,9 +116,9 @@ int main(int argc, char* argv[])
     {
       index = y * width + x;
 
-      file << pixel[index] << " ";
+      file << pixel[index] << ' ';
     }
-    file << std::endl;
+    file << '\n';
   }
 
   // fermeture du fichier
