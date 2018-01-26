@@ -2,9 +2,9 @@
 // Exemple d'une section de code pour créer et configurer un framebuffer avec OpenGL.
 
 // entrée
-// • une fenêtre d'affichage liée à un contexte de rendu
+// • Une fenêtre d'affichage liée à un contexte de rendu.
 // sortie
-// • un framebuffer prêt à l'utilisation, avec un buffer de rendu couleur et un buffer de profondeur
+// • Un framebuffer prêt à l'utilisation, avec un buffer de rendu couleur et un buffer de profondeur.
 
 // résolution en largeur de la fenêtre d'affichage
 int viewpor_width  = ...;
@@ -13,9 +13,9 @@ int viewport_height = ...;
 
 // identifiant du framebuffer
 GLuint framebuffer;
-// - identifiant du buffer de rendu
+// identifiant du buffer de rendu
 GLuint renderbuffer;
-// - identifiant du buffer de profondeur
+// identifiant du buffer de profondeur
 GLuint depthbuffer;
 
 // générer un identifiant pour un nouveau framebuffer
