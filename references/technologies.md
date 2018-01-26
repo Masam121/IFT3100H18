@@ -1,4 +1,4 @@
-# Références - Technologies
+# Références - technologies
 
 Références sur différentes technologies qui permettent de faire de la programmation graphique.
 
@@ -35,6 +35,9 @@ http://www.lwjgl.org
 freeglut  
 http://freeglut.sourceforge.net
 
+Visualization Library  
+http://visualizationlibrary.org/docs/2.0/html/index.html
+
 GLKit  
 https://developer.apple.com/library/ios/documentation/GLkit/Reference/GLKit_Collection/index.html/
 
@@ -43,3 +46,4 @@ https://threejs.org
 
 Quil  
 http://quil.info/
+
