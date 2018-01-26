@@ -44,23 +44,23 @@ https://www.khronos.org/opengl/wiki/Renderbuffer_Object
 
 ## Commandes OpenGL
 
-Commande OpenGL: glGenFramebuffers  
+Commande OpenGL : glGenFramebuffers  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
 
-Commande OpenGL: glBindFramebuffer  
+Commande OpenGL : glBindFramebuffer  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
 
-Commande OpenGL: glGenRenderbuffers  
+Commande OpenGL : glGenRenderbuffers  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
 
-Commande OpenGL: glBindRenderbuffer  
+Commande OpenGL : glBindRenderbuffer  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
 
-Commande OpenGL: glFramebufferRenderbuffer  
+Commande OpenGL : glFramebufferRenderbuffer  
 https://www.khronos.org/opengl/wiki/GLAPI/glFramebufferRenderbuffer
 
-Commande OpenGL: glRenderbufferStorage  
+Commande OpenGL : glRenderbufferStorage  
 https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
 
-Commande OpenGL: glGetRenderbufferParameter  
+Commande OpenGL : glGetRenderbufferParameter  
 https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
