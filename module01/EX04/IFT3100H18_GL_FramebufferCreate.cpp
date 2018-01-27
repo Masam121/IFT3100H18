@@ -18,11 +18,15 @@ GLuint renderbuffer;
 // identifiant du buffer de profondeur
 GLuint depthbuffer;
 
+// 1. création du framebuffer
+
 // générer un identifiant pour un nouveau framebuffer
 glGenFramebuffers(1, &framebuffer);
 
 // sélectionner ce nouveau framebuffer comme framebuffer actif
 glBindFramebuffer(GL_FRAMEBUFFER, framebuffer);
+
+// 2. création du buffer de rendu attaché au framebuffer
 
 // générer un identifiant pour un nouveau buffer de rendu
 glGenRenderbuffers(1, &renderbuffer);
@@ -35,6 +39,8 @@ glRenderbufferStorage(GL_RENDERBUFFER, GL_RGBA, viewpor_width, viewport_height);
 
 // attacher le buffer de rendu au framebuffer
 glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, renderbuffer);
+
+// 3. création du buffer de profondeur attaché au framebuffer
 
 // générer un identifiant pour un nouveau buffer de profondeur
 glGenRenderbuffers(1, &depthbuffer);
