@@ -16,6 +16,7 @@ int image_component = ...;
 int image_pixel_count = ...;
 int image_size = ...;
 
+
 // 2. allocation de l'espace mémoire pour les pixels de l'image
 
 // calculer le nombre total de pixels dans l'image
@@ -32,8 +33,10 @@ GLubyte* pixels;
 // allocation d'un espace mémoire suffisament grand pour contenir tous les pixels de l'image
 pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
 
+
 // 3. lire le contenu de l'image et copier ses pixels en mémoire (RAM)
 // ...
+
 
 // 4. création d'une texture à partir de l'image
 
