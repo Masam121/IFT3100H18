@@ -6,7 +6,7 @@
 // • Ensemble des propriétés de l'image (ex: largeur, hauteur, espace de couleur, nombre de composantes de couleur).
 
 // sortie
-// • Une texture générée à partir de l'image, chargée en mémoire vidéo (GPU), adéquatement configurée et prête à l'utilisation.
+// • Une texture générée à partir de l'image, chargée en mémoire GPU, adéquatement configurée et prête à l'utilisation.
 
 // 1. ouvrir le fichier image en mode lecture et en extraire les propriétés
 
@@ -30,7 +30,7 @@ image_size = image_pixel_count * image_component;
 // (GLubyte est 'unsigned byte' de 8 bits donc 256 niveaux de couleur par composante)
 GLubyte* pixels;
 
-// allocation d'un espace mémoire suffisament grand pour contenir tous les pixels de l'image
+// allocation d'un espace mémoire suffisamment grand pour contenir tous les pixels de l'image
 pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
 
 
@@ -47,7 +47,7 @@ GLuint texture_id;
 // création d'un identifiant pour une nouvelle texture
 glGenTextures(1, &texture_id);
 
-// sélectionner cette texture comme texture active
+// sélectionner cette nouvelle texture comme texture active
 glBindTexture(GL_TEXTURE_2D, texture_id);
 
 // définir les paramètres d'enveloppement aux extrémités de la texture active
