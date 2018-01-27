@@ -1,6 +1,7 @@
 // IFT3100H18_ColorSpaceBitmap\main.cpp
 // Génération procédurale d'une image dans un espace de couleur binaire.
 // Les pixels sont colorés selon le pattern d'un échiquier.
+// Exportation des données de l'image dans une fichier .pbm (portable bitmap).
 
 #include <iostream>
 #include <sstream>
