@@ -64,3 +64,6 @@ https://en.wikipedia.org/wiki/BMP_file_format
 
 GIMP : GNU Image Manipulator Program  
 https://www.gimp.org
+
+OpenGL Wiki : Image Format
+https://www.khronos.org/opengl/wiki/Image_Format
