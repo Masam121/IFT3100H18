@@ -1,6 +1,7 @@
 // IFT3100H18_ColorSpaceGraymap\main.cpp
 // Génération procédurale d'une image dans un espace de couleur en niveau de gris (256 variations).
 // Les pixels sont colorés selon la valeur d'un xor entre ses coordonnées x et y.
+// Exportation des données de l'image dans une fichier .pgm (portable graymap).
 
 #include <iostream>
 #include <sstream>
