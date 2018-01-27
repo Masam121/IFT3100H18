@@ -8,6 +8,9 @@ https://www.khronos.org
 OpenGL.org  
 https://www.opengl.org
 
+OpenGL API Documentation Overview  
+https://www.opengl.org/documentation
+
 OpenGL Wiki  
 https://www.khronos.org/opengl/wiki/Main_Page
 
@@ -19,6 +22,9 @@ https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs
 
 OpenGL Shading Language (GLSL)  
 https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
+
+Khronos Group Reference Guides  
+https://www.khronos.org/developers/reference-cards/
 
 ## Objets OpenGL
 
