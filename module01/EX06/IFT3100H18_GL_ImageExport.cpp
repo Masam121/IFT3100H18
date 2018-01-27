@@ -26,24 +26,17 @@ glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_HEIGHT, &image_hei
 // déterminer le nombre de composantes de couleur selon le format de l'image
 image_component = 4; // 4 composantes de couleur pour du RGBA
 
+
 // 2. allocation de l'espace mémoire pour les pixels de l'image
 
-// calculer le nombre total de pixels dans l'image
 image_pixel_count = image_width * image_height;
-
-// calculer le nombre d'octets à allouer en mémoire pour contenir l'image
 image_size = image_pixel_count * image_component;
-
-// déclarer un pointeur vers un espace mémoire qui servira à stocker les pixels de l'image
-GLubyte* pixels;
-
-// allocation d'un espace mémoire suffisamment grand pour contenir tous les pixels de l'image
-pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
+GLubyte* pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
 
 
 // 3. copier le contenu du framebuffer
 
-// lire le contenu du framebuffer actif et copier les pixels en mémoire RAM
+// lire le contenu du framebuffer et copier les pixels en mémoire RAM
 glReadPixels(0, 0, image_width, image_height, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
 
 
