@@ -99,3 +99,8 @@ https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Completeness
 Commande OpenGL : **glClear**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClear.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClear
+
+Commande OpenGL : **glClearColor**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearColor.xhtml
+https://www.khronos.org/opengl/wiki/GLAPI/glClearColor
+
