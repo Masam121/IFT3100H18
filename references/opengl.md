@@ -104,3 +104,7 @@ Commande OpenGL : **glClearColor**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearColor.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearColor
 
+Commande OpenGL : **glClearDepth**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearDepth.xhtml
+https://www.khronos.org/opengl/wiki/GLAPI/glClearDepth
+
