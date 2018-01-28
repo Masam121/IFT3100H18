@@ -108,3 +108,6 @@ Commande OpenGL : **glClearDepth**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearDepth.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearDepth
 
+Commande OpenGL : **glClearStencil**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml
+https://www.khronos.org/opengl/wiki/GLAPI/glClearStencil
