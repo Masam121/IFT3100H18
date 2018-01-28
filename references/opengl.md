@@ -29,7 +29,7 @@ https://www.khronos.org
 Khronos Group Reference Guides  
 https://www.khronos.org/developers/reference-cards/
 
-## Objets OpenGL
+## Concepts OpenGL
 
 Contexte de rendu  
 https://www.khronos.org/opengl/wiki/OpenGL_Context
@@ -43,19 +43,19 @@ https://www.khronos.org/opengl/wiki/Framebuffer
 Framebuffer par défaut  
 https://www.khronos.org/opengl/wiki/Default_Framebuffer
 
-Framebuffer (FBO)  
+Framebuffer objet (FBO)  
 https://www.khronos.org/opengl/wiki/Framebuffer_Object
 
 Renderbuffer  
 https://www.khronos.org/opengl/wiki/Renderbuffer_Object
 
-Image Format  
+Formats d'image  
 https://www.khronos.org/opengl/wiki/Image_Format
 
-Pixel Transfer  
+Transfer de pixels  
 https://www.khronos.org/opengl/wiki/Pixel_Transfer
 
-OpenGL Type  
+Types primitifs  
 https://www.khronos.org/opengl/wiki/OpenGL_Type
 
 ## Commandes OpenGL
@@ -91,3 +91,7 @@ https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
 Commande OpenGL : **glReadPixels**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
+
+Commande OpenGL : **glCheckFramebufferStatus**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
+https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Completeness
