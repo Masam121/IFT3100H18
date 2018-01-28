@@ -55,7 +55,7 @@ glReadPixels(0, 0, image_width, image_height, image_format, GL_UNSIGNED_BYTE, pi
 // ouvrir un nouveau fichier image en mode écriture
 // ...
 
-// écrire les données de l'image dans le fichier image
+// écrire les pixels dans le fichier image
 // ...
 
 // fermer le fichier image
