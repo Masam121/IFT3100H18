@@ -20,6 +20,9 @@ https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs
 OpenGL Shading Language (GLSL)  
 https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
 
+OpenGL Common Mistakes
+https://www.khronos.org/opengl/wiki/Common_Mistakes
+
 Khronos Group (standard OpenGL)  
 https://www.khronos.org
 
