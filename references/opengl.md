@@ -20,7 +20,7 @@ https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs
 OpenGL Shading Language (GLSL)  
 https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
 
-OpenGL Common Mistakes
+OpenGL Common Mistakes  
 https://www.khronos.org/opengl/wiki/Common_Mistakes
 
 Khronos Group (standard OpenGL)  
@@ -88,26 +88,26 @@ Commande OpenGL : **glGetRenderbufferParameter**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
 
-Commande OpenGL : **glReadPixels**
+Commande OpenGL : **glReadPixels**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 
-Commande OpenGL : **glCheckFramebufferStatus**
+Commande OpenGL : **glCheckFramebufferStatus**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
 https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Completeness
 
-Commande OpenGL : **glClear**
+Commande OpenGL : **glClear**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClear.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClear
 
-Commande OpenGL : **glClearColor**
+Commande OpenGL : **glClearColor**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearColor.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearColor
 
-Commande OpenGL : **glClearDepth**
+Commande OpenGL : **glClearDepth**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearDepth.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearDepth
 
-Commande OpenGL : **glClearStencil**
+Commande OpenGL : **glClearStencil**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearStencil
