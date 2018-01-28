@@ -78,3 +78,7 @@ https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
 Commande OpenGL : **glGetRenderbufferParameter**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
+
+Commande OpenGL : **glReadPixels**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
