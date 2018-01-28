@@ -53,3 +53,6 @@ glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT16, viewpor_width, view
 
 // attacher le buffer de profondeur au framebuffer
 glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depthbuffer);
+
+// 4. valider si le framebuffer est complet
+bool is_framebuffer_complete = glCheckFramebufferStatus(GL_FRAMEBUFFER) == GL_FRAMEBUFFER_COMPLETE ? true : false;
