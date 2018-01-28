@@ -8,11 +8,9 @@
 
 GLuint framebuffer = ...;
 
-int image_width;
-int image_height;
-int image_component;
-int image_pixel_count;
-int image_size;
+GLint image_width;
+GLint image_height;
+GLint image_format
 
 // 1. Extraction des propriétés du framebuffer
 
@@ -20,25 +18,31 @@ int image_size;
 glBindFramebuffer(GL_FRAMEBUFFER, framebuffer);
 
 // extraire les propriétés de largeur et de hauteur du framebuffer
-glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_WIDTH,  &image_width);
+glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_WIDTH, &image_width);
 glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_HEIGHT, &image_height);
 
-// déterminer le nombre de composantes de couleur selon le format de l'image
-image_component = 4; // 4 composantes de couleur pour du RGBA
+// extraire le type d'espace de couleur du framebuffer
+glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_INTERNAL_FORMAT, &image_format);
 
+// déterminer le nombre de composantes de couleur selon le type d'espace de couleur
+int image_component;
+if (image_format == GL_RGBA)
+  image_component = 4;
+else if(image_format == GL_RGB)
+  image_component = 3;
+else if(...)
 
 // 2. allocation de l'espace mémoire pour les pixels de l'image
 
-image_pixel_count = image_width * image_height;
-image_size = image_pixel_count * image_component;
+int image_size = image_width * image_height * image_component;
 GLubyte* pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
-
 
 // 3. copier le contenu du framebuffer
 
 // lire le contenu du framebuffer et copier les pixels en mémoire RAM
-glReadPixels(0, 0, image_width, image_height, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
+glReadPixels(0, 0, image_width, image_height, image_format, GL_UNSIGNED_BYTE, pixels);
 
+// la lecture se fera dans le renderbuffer GL_COLOR_ATTACHMENT0 du FBO
 
 // 4. sauvegarde dans un fichier image
 
