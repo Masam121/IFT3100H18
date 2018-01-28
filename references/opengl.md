@@ -95,3 +95,7 @@ https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 Commande OpenGL : **glCheckFramebufferStatus**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
 https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Completeness
+
+Commande OpenGL : **glClear**
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClear.xhtml
+https://www.khronos.org/opengl/wiki/GLAPI/glClear
