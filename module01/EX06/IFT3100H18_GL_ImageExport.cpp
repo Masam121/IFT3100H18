@@ -6,11 +6,14 @@
 // sortie
 // • Un fichier image qui contient une copie du contenu du framebuffer.
 
+// un framebuffer complet avec un renderbuffer attaché à GL_COLOR_ATTACHMENT0
 GLuint framebuffer = ...;
 
+// propriétés du framebuffer
 GLint image_width;
 GLint image_height;
 GLint image_format
+
 
 // 1. Extraction des propriétés du framebuffer
 
@@ -32,10 +35,12 @@ else if(image_format == GL_RGB)
   image_component = 3;
 else if(...)
 
+
 // 2. allocation de l'espace mémoire pour les pixels de l'image
 
 int image_size = image_width * image_height * image_component;
 GLubyte* pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
+
 
 // 3. copier le contenu du framebuffer
 
@@ -43,6 +48,7 @@ GLubyte* pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
 glReadPixels(0, 0, image_width, image_height, image_format, GL_UNSIGNED_BYTE, pixels);
 
 // la lecture se fera dans le renderbuffer GL_COLOR_ATTACHMENT0 du FBO
+
 
 // 4. sauvegarde dans un fichier image
 
