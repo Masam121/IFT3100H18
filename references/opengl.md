@@ -2,9 +2,6 @@
 
 ## Documentation OpenGL
 
-Khronos Group (standard OpenGL)  
-https://www.khronos.org
-
 OpenGL.org  
 https://www.opengl.org
 
@@ -22,6 +19,9 @@ https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs
 
 OpenGL Shading Language (GLSL)  
 https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
+
+Khronos Group (standard OpenGL)  
+https://www.khronos.org
 
 Khronos Group Reference Guides  
 https://www.khronos.org/developers/reference-cards/
@@ -48,6 +48,12 @@ https://www.khronos.org/opengl/wiki/Renderbuffer_Object
 
 Image Format  
 https://www.khronos.org/opengl/wiki/Image_Format
+
+Pixel Transfer  
+https://www.khronos.org/opengl/wiki/Pixel_Transfer
+
+OpenGL Type  
+https://www.khronos.org/opengl/wiki/OpenGL_Type
 
 ## Commandes OpenGL
 
