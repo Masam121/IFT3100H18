@@ -1,6 +1,6 @@
-# Références - module 1 : Image 
+# module 1 : Image 
 
-Références en lien avec le module 1.
+Références en lien avec le module 1 : Image.
 
 Wikipédia : Image matricielle  
 https://fr.wikipedia.org/wiki/Image_matricielle
