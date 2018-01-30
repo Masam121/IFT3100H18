@@ -31,7 +31,10 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawTriangle
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawRectangle
 
 ### Polygone
+http://openframeworks.cc/documentation/graphics/ofPolyline/
+http://openframeworks.cc/documentation/graphics/ofPath/
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetPolyMode
+http://openframeworks.cc/documentation/graphics/ofPath/#show_setFilled
 
 ### Ligne
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawLine
@@ -45,4 +48,4 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawEllipse
 ### Courbe paramétrique
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawBezier
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawCurve
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetCurveResolution
+http://openframeworks.cc/documentation/graphics/ofPath/#show_bezierTo
