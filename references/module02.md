@@ -19,7 +19,6 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetColor
 https://processing.org/reference/noStroke_.html
 https://processing.org/reference/stroke_.html
 
-
 ### Couleur de canevas
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetBackgroundColor
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofClear
@@ -32,6 +31,17 @@ https://processing.org/reference/fill_.html
 
 ## Primitives vectorielles
 
+### Point
+https://processing.org/reference/point_.html
+https://processing.org/reference/stroke_.html
+https://processing.org/reference/strokeWeight_.html
+
+### Ligne
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawLine
+https://processing.org/reference/line_.html
+https://processing.org/reference/stroke_.html
+https://processing.org/reference/strokeWeight_.html
+
 ### Triangle
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawTriangle
 
@@ -41,15 +51,18 @@ http://openframeworks.cc/documentation/types/ofStyle/#!show_rectMode
 https://processing.org/reference/rect_.html
 https://processing.org/reference/rectMode_.html
 
+### Quadrilatère
+http://www.processing.org/reference/quad_.html
+
 ### Polygone
 http://openframeworks.cc/documentation/graphics/ofPolyline/
 http://openframeworks.cc/documentation/graphics/ofPath/
 http://openframeworks.cc/documentation/types/ofStyle/#show_polyMode
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetPolyMode
 http://openframeworks.cc/documentation/graphics/ofPath/#show_setFilled
-
-### Ligne
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawLine
+https://processing.org/reference/beginShape_.html
+https://processing.org/reference/endShape_.html
+https://processing.org/reference/vertex_.html
 
 ### Cercle
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawCircle
@@ -67,3 +80,20 @@ https://processing.org/reference/arc_.html
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawBezier
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawCurve
 http://openframeworks.cc/documentation/graphics/ofPath/#show_bezierTo
+
+## Forme vectorielle
+
+Processing: Classe pour forme vectorielle  
+http://www.processing.org/reference/PShape.html
+
+Processing: Création d'une forme vectorielle  
+http://www.processing.org/reference/createShape_.html
+https://processing.org/reference/loadShape_.html
+
+## Image vectorielle
+
+Wikipédia: Format de fichier SVG (scalable vector graphics)  
+http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics
+
+Wikipédia: Scalable Vector Graphics  
+https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
