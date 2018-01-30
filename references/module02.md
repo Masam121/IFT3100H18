@@ -7,14 +7,18 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/
 
 ## Outils de dessin
 
-### Couleur de trait
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofNoFill
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetColor
-https://processing.org/reference/stroke_.html
-
 ### Épaisseur de trait
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetLineWidth
 https://processing.org/reference/strokeWeight_.html
+https://processing.org/reference/strokeCap_.html
+https://processing.org/reference/strokeJoin_.html
+
+### Couleur de trait
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofNoFill
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetColor
+https://processing.org/reference/noStroke_.html
+https://processing.org/reference/stroke_.html
+
 
 ### Couleur de canevas
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetBackgroundColor
