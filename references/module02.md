@@ -2,7 +2,7 @@
 
 Références en lien avec le module 2 : Dessin vectoriel.
 
-## ofGraphics
+## Dessin vectoriel avec openFrameworks : ofGraphics
 http://openframeworks.cc/documentation/graphics/ofGraphics/
 
 ## Outils de dessin
@@ -22,7 +22,7 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofClear
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofFill
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetColor
 
-## Primitves vectorielles
+## Primitives vectorielles
 
 ### Triangle
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawTriangle
