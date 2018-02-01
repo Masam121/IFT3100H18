@@ -83,17 +83,43 @@ http://openframeworks.cc/documentation/graphics/ofPath/#show_bezierTo
 
 ## Forme vectorielle
 
-Processing: Classe pour forme vectorielle  
+Processing : Classe pour forme vectorielle  
 http://www.processing.org/reference/PShape.html
 
-Processing: Création d'une forme vectorielle  
+Processing : Création d'une forme vectorielle  
 http://www.processing.org/reference/createShape_.html
 https://processing.org/reference/loadShape_.html
 
 ## Image vectorielle
 
-Wikipédia: Format de fichier SVG (scalable vector graphics)  
+Wikipédia : Format de fichier SVG (scalable vector graphics)  
 http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics
 
-Wikipédia: Scalable Vector Graphics  
+Wikipédia : Scalable Vector Graphics  
 https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
+
+## Rastérisation de lignes
+
+Wikipédia : Analyseur différentiel numérique  
+http://fr.wikipedia.org/wiki/Analyseur_différentiel_numérique
+
+Wikipedia : Digital differential analyzer (graphics algorithm)  
+https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
+
+Wikipédia : Algorithme de Bresenham  
+http://fr.wikipedia.org/wiki/Algorithme_de_trac%C3%A9_de_segment_de_Bresenham
+
+Wikipedia : Bresenham's line algorithm  
+https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
+
+Wikipédia : Algorithme de tracé de segment de Xiaolin Wu  
+http://fr.wikipedia.org/wiki/Algorithme_de_tracé_de_segment_de_Xiaolin_Wu
+
+Wikipedia : Xiaolin Wu's line algorithm  
+https://en.wikipedia.org/wiki/Xiaolin_Wu%27s_line_algorithm
+
+Rosettacode : Bresenham's line algorithm  
+http://rosettacode.org/wiki/Bitmap/Bresenham's_line_algorithm
+
+Rosettacode : Xiaolin Wu's line algorithm  
+http://rosettacode.org/wiki/Xiaolin_Wu's_line_algorithm
