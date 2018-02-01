@@ -136,7 +136,7 @@ Il est possible de créer des instances d'au moins 2 types de forme vectorielle 
 \subsection{Interface}
 
 \state
-Une ou des éléments d'interface graphique offre de la rétroaction informative visuelle à l'utilisateur et des contrôles interactifs pour influencer les états de l'application.
+Un ou des éléments d'interface graphique offre de la rétroaction informative visuelle à l'utilisateur et des contrôles interactifs pour influencer les états de l'application.
 
 \qed
 
@@ -147,18 +147,23 @@ Une ou des éléments d'interface graphique offre de la rétroaction informative
 \subsection{Graphe de scène}
 
 \state
+Tous les éléments visuels présents dans une scène sont organisés dans une ou des structures de données qui permettent l'ajout, la suppression et la sélection d'éléments.
 
 \qed
 
-\subsection{Sélection multiples}
+\subsection{Sélection multiple}
 
 \state
+Il est possible de sélectionner plus d'une instance des éléments visuels
+présents dans une scène et de modifier sur chaque élément de la sélection la valeur de certains attributs qu'ils ont en commun.
 
 \qed
 
 \subsection{Transformations interactives}
 
 \state
+Il est possible de modifier de manière interactive la translation, la rotation
+et la proportion des éléments visuels présents dans une scène.
 
 \qed
 
@@ -166,12 +171,15 @@ Une ou des éléments d'interface graphique offre de la rétroaction informative
 \subsection{Historique de transformation}
 
 \state
+Il est possible d'annuler ou de refaire (\textit{undo} / \textit{redo}) les dernières actions interactives qui ont un impact sur la transformation des éléments visuels présents dans une scène.
+
 
 \qed
 
-\subsection{Coordonnées non-cartésiennes}
+\subsection{Système de coordonnées}
 
 \state
+Il est possible de dessiner des éléments visuels qui sont transformés dans un système de coordonnées non-cartésien.
 
 \qed
 
