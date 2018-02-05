@@ -20,8 +20,11 @@ https://processing.org/reference/noStroke_.html
 https://processing.org/reference/stroke_.html
 
 ### Couleur de canevas
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetBackgroundColor
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofClear
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofBackground
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofBackgroundGradient
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetBackgroundColor
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetBackgroundAuto
 
 ### Couleur de remplissage
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofNoFill
