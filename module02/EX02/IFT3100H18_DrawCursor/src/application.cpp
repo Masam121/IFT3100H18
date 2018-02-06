@@ -25,7 +25,7 @@ void Application::mouseMoved(int x, int y)
   renderer.mouse_current_x = x;
   renderer.mouse_current_y = y;
 
-  if(is_verbose)
+  if (is_verbose)
     ofLog() << "<app::mouse moved    at: (" << x << ", " << y << ")>";
 }
 
@@ -35,7 +35,7 @@ void Application::mouseDragged(int x, int y, int button)
   renderer.mouse_current_x = x;
   renderer.mouse_current_y = y;
 
-  if(is_verbose)
+  if (is_verbose)
     ofLog() << "<app::mouse dragged  at: (" << x << ", " << y << ") button:" << button <<">";
 }
 
@@ -85,11 +85,11 @@ void Application::mouseExited(int x, int y)
 // fonction appelée quand une touche du clavier est relâchée
 void Application::keyReleased(int key)
 {
-  switch(key)
+  switch (key)
   {
     case 118: // key v
       is_verbose = !is_verbose;
-      ofLog() << "<verbose mode:" << is_verbose << ">";
+      ofLog() << "<verbose mode: " << is_verbose << ">";
       break;
 
     default:

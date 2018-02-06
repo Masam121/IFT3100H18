@@ -1,5 +1,5 @@
 // IFT3100H18_DrawCursor/main.cpp
-// Dessine un curseur en fonction des états et des événements d'un périphérique de pointage et affiche ces informations dans la console.
+// Dessiner un curseur en fonction des états et des événements d'un périphérique de pointage et afficher ces informations dans la console.
 
 #include "ofMain.h"
 #include "application.h"
