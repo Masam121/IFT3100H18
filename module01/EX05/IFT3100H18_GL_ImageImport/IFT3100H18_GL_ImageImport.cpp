@@ -31,7 +31,7 @@ image_size = image_pixel_count * image_component;
 GLubyte* pixels;
 
 // allocation d'un espace mémoire suffisamment grand pour contenir tous les pixels de l'image
-pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
+pixels = (GLubyte*) std::malloc(image_size * sizeof(GLubyte));
 
 
 // 3. lire le contenu de l'image et copier ses pixels en mémoire (RAM)
@@ -65,4 +65,4 @@ glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image_width, image_height, 0, GL_RGBA, G
 glGenerateMipmap(GL_TEXTURE_2D);
 
 // la copie de l'image en mémoire RAM peut maintenant être supprimée car une copie existe maintenant en mémoire GPU
-free(pixels);
+std::free(pixels);
