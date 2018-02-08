@@ -126,3 +126,8 @@ http://rosettacode.org/wiki/Bitmap/Bresenham's_line_algorithm
 
 Rosettacode : Xiaolin Wu's line algorithm  
 http://rosettacode.org/wiki/Xiaolin_Wu's_line_algorithm
+
+## Divers
+
+imgui : Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies
+https://github.com/ocornut/imgui
