@@ -21,7 +21,7 @@ void Renderer::setup()
   size = count * stride;
 
   // allocation d'un espace mémoire suffisament grand pour contenir les données de l'ensemble des primitives vectorielles
-  shape = (VectorialPrimitive *) calloc(size, stride);
+  shape = (VectorialPrimitive*) calloc(size, stride);
 
   // mode de dessin par défaut
   draw_mode = VectorialPrimitiveType::rectangle;
