@@ -39,7 +39,7 @@ else if(...)
 // 2. allocation de l'espace mémoire pour les pixels de l'image
 
 int image_size = image_width * image_height * image_component;
-GLubyte* pixels = (GLubyte*) calloc(image_size, sizeof(GLubyte));
+GLubyte* pixels = (GLubyte*) std::malloc(image_size * sizeof(GLubyte));
 
 
 // 3. copier le contenu du framebuffer
@@ -60,3 +60,6 @@ glReadPixels(0, 0, image_width, image_height, image_format, GL_UNSIGNED_BYTE, pi
 
 // fermer le fichier image
 // ...
+
+// libérer l'espace occupée par l'image en mémoire RAM
+std::free(pixels);
