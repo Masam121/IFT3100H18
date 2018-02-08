@@ -24,13 +24,13 @@ void Application::update()
   time_last = time_current;
 
   // déplacement sur le plan XZ
-  if(is_key_press_up)
+  if (is_key_press_up)
     renderer.offset_z += renderer.delta_z * time_elapsed;
-  if(is_key_press_down)
+  if (is_key_press_down)
     renderer.offset_z -= renderer.delta_z * time_elapsed;
-  if(is_key_press_left)
+  if (is_key_press_left)
     renderer.offset_x += renderer.delta_x * time_elapsed;
-  if(is_key_press_right)
+  if (is_key_press_right)
     renderer.offset_x -= renderer.delta_x * time_elapsed;
 }
 
