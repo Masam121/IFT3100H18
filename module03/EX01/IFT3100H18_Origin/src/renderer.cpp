@@ -37,16 +37,16 @@ void Renderer::reset()
 void Renderer::draw_scene()
 {
   // rendre l'origine de la scène avant transformation du système de coordonnées
-  draw_locator(10);
+  draw_locator(10.0f);
 
   // copier la matrice de transformation courante sur le dessus de la pile
   ofPushMatrix();
 
   // transformer l'origine de la scène au milieu de la fenêtre d'affichage
-  ofTranslate(center_x, center_y, 0);
+  ofTranslate(center_x, center_y, 0.0f);
 
   // rendre l'origine de la scène après transformation du système de coordonnées
-  draw_locator(10);
+  draw_locator(10.0f);
 
   // revenir à la matrice de transformation précédente dans la pile
   ofPopMatrix();
@@ -58,7 +58,7 @@ void Renderer::draw_locator(float scale)
   ofFill();
   ofPushMatrix();
   ofScale(scale, scale);
-  node.setPosition(0, 0, 0);
+  node.setPosition(0.0f, 0.0f, 0.0f);
   node.draw();
   ofPopMatrix();
 }
