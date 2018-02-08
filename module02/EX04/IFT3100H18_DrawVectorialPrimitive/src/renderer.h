@@ -11,13 +11,13 @@ enum class VectorialPrimitiveType {none, pixel, point, line, rectangle, ellipse}
 // structure de primitive vectorielle générique
 struct VectorialPrimitive
 {
-  VectorialPrimitiveType type;             // 1 * 4 = 4  octets
-  float                  position1   [2];  // 2 * 4 = 8  octets
-  float                  position2   [2];  // 2 * 4 = 8  octets
-  float                  stroke_width;     // 1 * 4 = 4  octets
-  unsigned char          stroke_color [4]; // 4 * 1 = 4  octets
-  unsigned char          fill_color   [4]; // 4 * 1 = 4  octets
-};                                         //       = 32 octets
+  VectorialPrimitiveType type;            // 1 * 4 = 4  octets
+  float                  position1[2];    // 2 * 4 = 8  octets
+  float                  position2[2];    // 2 * 4 = 8  octets
+  float                  stroke_width;    // 1 * 4 = 4  octets
+  unsigned char          stroke_color[4]; // 4 * 1 = 4  octets
+  unsigned char          fill_color[4];   // 4 * 1 = 4  octets
+};                                        //       = 32 octets
 
 class Renderer
 {
@@ -25,7 +25,7 @@ public:
 
   VectorialPrimitiveType draw_mode;
 
-  VectorialPrimitive * shape;
+  VectorialPrimitive* shapes;
 
   int count;
   int size;
