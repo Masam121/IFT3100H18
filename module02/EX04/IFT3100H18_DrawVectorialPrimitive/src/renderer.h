@@ -25,7 +25,7 @@ public:
 
   VectorialPrimitiveType draw_mode;
 
-  VectorialPrimitive* shape;
+  VectorialPrimitive* shapes;
 
   int count;
   int size;

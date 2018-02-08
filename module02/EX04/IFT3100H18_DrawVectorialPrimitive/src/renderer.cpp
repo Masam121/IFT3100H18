@@ -21,7 +21,7 @@ void Renderer::setup()
   size = count * stride;
 
   // allocation d'un espace mémoire suffisament grand pour contenir les données de l'ensemble des primitives vectorielles
-  shape = (VectorialPrimitive*) calloc(size, stride);
+  shapes = (VectorialPrimitive*) std::malloc(size * stride);
 
   // mode de dessin par défaut
   draw_mode = VectorialPrimitiveType::rectangle;
@@ -44,19 +44,19 @@ void Renderer::draw()
 {
   for (index = 0; index < count; ++index)
   {
-    switch (shape[index].type)
+    switch (shapes[index].type)
     {
       case VectorialPrimitiveType::pixel:
 
         ofFill();
         ofSetLineWidth(0);
         ofSetColor(
-          shape[index].stroke_color[0],
-          shape[index].stroke_color[1],
-          shape[index].stroke_color[2]);
+          shapes[index].stroke_color[0],
+          shapes[index].stroke_color[1],
+          shapes[index].stroke_color[2]);
         draw_pixel(
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         break;
 
       case VectorialPrimitiveType::point:
@@ -64,28 +64,28 @@ void Renderer::draw()
         ofFill();
         ofSetLineWidth(0);
         ofSetColor(
-          shape[index].stroke_color[0],
-          shape[index].stroke_color[1],
-          shape[index].stroke_color[2]);
+          shapes[index].stroke_color[0],
+          shapes[index].stroke_color[1],
+          shapes[index].stroke_color[2]);
         draw_point(
-          shape[index].position2[0],
-          shape[index].position2[1],
-          shape[index].stroke_width);
+          shapes[index].position2[0],
+          shapes[index].position2[1],
+          shapes[index].stroke_width);
         break;
 
       case VectorialPrimitiveType::line:
 
         ofNoFill();
-        ofSetLineWidth(shape[index].stroke_width);
+        ofSetLineWidth(shapes[index].stroke_width);
         ofSetColor(
-          shape[index].stroke_color[0],
-          shape[index].stroke_color[1],
-          shape[index].stroke_color[2]);
+          shapes[index].stroke_color[0],
+          shapes[index].stroke_color[1],
+          shapes[index].stroke_color[2]);
         draw_line(
-          shape[index].position1[0],
-          shape[index].position1[1],
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position1[0],
+          shapes[index].position1[1],
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         break;
 
       case VectorialPrimitiveType::rectangle:
@@ -93,25 +93,25 @@ void Renderer::draw()
         ofFill();
         ofSetLineWidth(0);
         ofSetColor(
-          shape[index].fill_color[0],
-          shape[index].fill_color[1],
-          shape[index].fill_color[2]);
+          shapes[index].fill_color[0],
+          shapes[index].fill_color[1],
+          shapes[index].fill_color[2]);
         draw_rectangle(
-          shape[index].position1[0],
-          shape[index].position1[1],
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position1[0],
+          shapes[index].position1[1],
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         ofNoFill();
-        ofSetLineWidth(shape[index].stroke_width);
+        ofSetLineWidth(shapes[index].stroke_width);
         ofSetColor(
-          shape[index].stroke_color[0],
-          shape[index].stroke_color[1],
-          shape[index].stroke_color[2]);
+          shapes[index].stroke_color[0],
+          shapes[index].stroke_color[1],
+          shapes[index].stroke_color[2]);
         draw_rectangle(
-          shape[index].position1[0],
-          shape[index].position1[1],
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position1[0],
+          shapes[index].position1[1],
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         break;
 
       case VectorialPrimitiveType::ellipse:
@@ -120,25 +120,25 @@ void Renderer::draw()
         ofSetLineWidth(0);
         ofSetCircleResolution(48);
         ofSetColor(
-          shape[index].fill_color[0],
-          shape[index].fill_color[1],
-          shape[index].fill_color[2]);
+          shapes[index].fill_color[0],
+          shapes[index].fill_color[1],
+          shapes[index].fill_color[2]);
         draw_ellipse(
-          shape[index].position1[0],
-          shape[index].position1[1],
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position1[0],
+          shapes[index].position1[1],
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         ofNoFill();
-        ofSetLineWidth(shape[index].stroke_width);
+        ofSetLineWidth(shapes[index].stroke_width);
         ofSetColor(
-          shape[index].stroke_color[0],
-          shape[index].stroke_color[1],
-          shape[index].stroke_color[2]);
+          shapes[index].stroke_color[0],
+          shapes[index].stroke_color[1],
+          shapes[index].stroke_color[2]);
         draw_ellipse(
-          shape[index].position1[0],
-          shape[index].position1[1],
-          shape[index].position2[0],
-          shape[index].position2[1]);
+          shapes[index].position1[0],
+          shapes[index].position1[1],
+          shapes[index].position2[0],
+          shapes[index].position2[1]);
         break;
 
       default:
@@ -171,7 +171,7 @@ void Renderer::draw()
 void Renderer::reset()
 {
   for (index = 0; index < count; ++index)
-    shape[index].type = VectorialPrimitiveType::none;
+    shapes[index].type = VectorialPrimitiveType::none;
 
   head = 0;
 
@@ -181,44 +181,44 @@ void Renderer::reset()
 // fonction qui ajoute une primitive vectorielle au tableau
 void Renderer::add_vector_shape(VectorialPrimitiveType type)
 {
-  shape[head].type = type;
+  shapes[head].type = type;
 
-  shape[head].position1[0] = mouse_press_x;
-  shape[head].position1[1] = mouse_press_y;
+  shapes[head].position1[0] = mouse_press_x;
+  shapes[head].position1[1] = mouse_press_y;
 
-  shape[head].position2[0] = mouse_current_x;
-  shape[head].position2[1] = mouse_current_y;
+  shapes[head].position2[0] = mouse_current_x;
+  shapes[head].position2[1] = mouse_current_y;
 
-  shape[head].stroke_color[0] = stroke_color_r;
-  shape[head].stroke_color[1] = stroke_color_g;
-  shape[head].stroke_color[2] = stroke_color_b;
-  shape[head].stroke_color[3] = stroke_color_a;
+  shapes[head].stroke_color[0] = stroke_color_r;
+  shapes[head].stroke_color[1] = stroke_color_g;
+  shapes[head].stroke_color[2] = stroke_color_b;
+  shapes[head].stroke_color[3] = stroke_color_a;
 
-  shape[head].fill_color[0] = fill_color_r;
-  shape[head].fill_color[1] = fill_color_g;
-  shape[head].fill_color[2] = fill_color_b;
-  shape[head].fill_color[3] = fill_color_a;
+  shapes[head].fill_color[0] = fill_color_r;
+  shapes[head].fill_color[1] = fill_color_g;
+  shapes[head].fill_color[2] = fill_color_b;
+  shapes[head].fill_color[3] = fill_color_a;
 
-  switch (shape[head].type)
+  switch (shapes[head].type)
   {
     case VectorialPrimitiveType::point:
-      shape[head].stroke_width = ofRandom(1, 64);
+      shapes[head].stroke_width = ofRandom(1, 64);
       break;
 
     case VectorialPrimitiveType::line:
-      shape[head].stroke_width = ofRandom(1, 16);
+      shapes[head].stroke_width = ofRandom(1, 16);
       break;
 
     case VectorialPrimitiveType::rectangle:
-      shape[head].stroke_width = stroke_width_default;
+      shapes[head].stroke_width = stroke_width_default;
       break;
 
     case VectorialPrimitiveType::ellipse:
-      shape[head].stroke_width = stroke_width_default;
+      shapes[head].stroke_width = stroke_width_default;
       break;
 
     default:
-      shape[head].stroke_width = stroke_width_default;
+      shapes[head].stroke_width = stroke_width_default;
       break;
   }
 
@@ -306,5 +306,5 @@ void Renderer::draw_cursor(float x, float y) const
 
 Renderer::~Renderer()
 {
-  free(shape);
+  std::free(shapes);
 }
