@@ -41,7 +41,7 @@ void Application::draw()
 
 void Application::keyPressed(int key)
 {
-  switch(key)
+  switch (key)
   {
     case 356: // key ←
       is_key_press_left = true;
@@ -66,7 +66,7 @@ void Application::keyPressed(int key)
 
 void Application::keyReleased(int key)
 {
-  switch(key)
+  switch (key)
   {
     case 356: // key ←
       is_key_press_left = false;
