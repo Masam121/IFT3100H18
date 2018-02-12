@@ -60,37 +60,13 @@ https://www.khronos.org/opengl/wiki/OpenGL_Type
 
 ## Commandes OpenGL
 
-Commande OpenGL : **glGenFramebuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
-
 Commande OpenGL : **glBindFramebuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
 
-Commande OpenGL : **glGenRenderbuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
-
 Commande OpenGL : **glBindRenderbuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
-
-Commande OpenGL : **glFramebufferRenderbuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glFramebufferRenderbuffer
-
-Commande OpenGL : **glRenderbufferStorage**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
-
-Commande OpenGL : **glGetRenderbufferParameter**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
-
-Commande OpenGL : **glReadPixels**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
-https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 
 Commande OpenGL : **glCheckFramebufferStatus**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
@@ -111,3 +87,51 @@ https://www.khronos.org/opengl/wiki/GLAPI/glClearDepth
 Commande OpenGL : **glClearStencil**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearStencil
+
+Commande OpenGL : **glCreateProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateProgram.xhtml
+
+Commande OpenGL : **glDeleteProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteProgram.xhtml
+
+Commande OpenGL : **glFramebufferRenderbuffer**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glFramebufferRenderbuffer
+
+Commande OpenGL : **glGet**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGet.xhtml
+
+Commande OpenGL : **glGetActiveUniform**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetActiveUniform.xhtml
+
+Commande OpenGL : **glGetProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetProgram.xhtml
+
+Commande OpenGL : **glGetUniformLocation**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetUniformLocation.xhtml
+
+Commande OpenGL : **glGenFramebuffers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
+
+Commande OpenGL : **glGenRenderbuffers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
+
+Commande OpenGL : **glIsProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsProgram.xhtml
+
+Commande OpenGL : **glRenderbufferStorage**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
+
+Commande OpenGL : **glGetRenderbufferParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
+
+Commande OpenGL : **glReadPixels**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
+https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
+
+Commande OpenGL : **glUniform**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUniform.xhtml
