@@ -137,6 +137,9 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofIsVFlipped
 GLM: Librairie mathématique pour OpenGL  
 http://glm.g-truc.net/0.9.5/index.html
 
+GLM: Exemples  
+https://glm.g-truc.net/0.9.7/code.html
+
 Apple GLKit  
 https://developer.apple.com/documentation/glkit
 
