@@ -87,6 +87,51 @@ http://openframeworks.cc/documentation/math/ofQuaternion/
 Noeud de transformation  
 http://openframeworks.cc/documentation/3d/ofNode/
 
+Fonction : ofGetCurrentMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCurrentMatrix
+
+Fonction : ofGetCoordHandedness  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCoordHandedness
+
+Fonction : ofSetCoordHandedness  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetCoordHandedness
+
+Fonction : ofGetCurrentOrientationMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCurrentOrientationMatrix
+
+Fonction : ofSetMatrixMode  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetMatrixMode
+
+Fonction : ofLoadMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofLoadMatrix
+
+Fonction : ofMultMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofMultMatrix
+
+Fonction : ofPushMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofPushMatrix
+
+Fonction : ofPopMatrix  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofPopMatrix
+
+Fonction : ofRotate  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotate
+
+Fonction : ofRotateX  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateX
+
+Fonction : ofRotateY  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateY
+
+Fonction : ofRotateZ  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateZ
+
+Fonction : ofScale  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofScale
+
+Fonction : ofIsVFlipped  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofIsVFlipped
+
 ## Librairies
 
 GLM: Librairie mathématique pour OpenGL  
