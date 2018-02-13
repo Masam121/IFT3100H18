@@ -60,6 +60,12 @@ https://www.khronos.org/opengl/wiki/OpenGL_Type
 
 ## Commandes OpenGL
 
+Commande OpenGL : **glAttachShader**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glAttachShader.xhtml
+
+Commande OpenGL : **glBindAttribLocation**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindAttribLocation.xhtml
+
 Commande OpenGL : **glBindFramebuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
@@ -88,11 +94,32 @@ Commande OpenGL : **glClearStencil**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glClearStencil
 
+Commande OpenGL : **glCompileShader**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCompileShader.xhtml
+
 Commande OpenGL : **glCreateProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateProgram.xhtml
 
 Commande OpenGL : **glDeleteProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteProgram.xhtml
+
+Commande OpenGL : **glDeleteShader**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteShader.xhtml
+
+Commande OpenGL : **glDetachShader**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDetachShader.xhtml
+
+Commande OpenGL : **glDrawArrays**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDrawArrays.xhtml
+
+Commande OpenGL : **glDrawElements**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDrawElements.xhtml
+
+Commande OpenGL : **glDrawRangeElements**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDrawRangeElements.xhtml
+
+Commande OpenGL : **glEnableVertexAttribArray**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glEnableVertexAttribArray.xhtml
 
 Commande OpenGL : **glFramebufferRenderbuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml  
@@ -104,11 +131,26 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGet.xhtml
 Commande OpenGL : **glGetActiveUniform**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetActiveUniform.xhtml
 
+Commande OpenGL : **glGetAttachedShaders**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetAttachedShaders.xhtml
+
 Commande OpenGL : **glGetProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetProgram.xhtml
 
+Commande OpenGL : **glGetShaderInfoLog**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xhtml
+
+Commande OpenGL : **glGetShaderSource**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderSource.xhtml
+
 Commande OpenGL : **glGetUniformLocation**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetUniformLocation.xhtml
+
+Commande OpenGL : **glGetVertexAttrib**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetVertexAttrib.xhtml
+
+Commande OpenGL : **glGetVertexAttribPointerv**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetVertexAttribPointerv.xhtml
 
 Commande OpenGL : **glGenFramebuffers**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
@@ -120,6 +162,18 @@ https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
 
 Commande OpenGL : **glIsProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsProgram.xhtml
+
+Commande OpenGL : **glIsShader**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsShader.xhtml
+
+Commande OpenGL : **glLinkProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glLinkProgram.xhtml
+
+Commande OpenGL : **glMultiDrawArrays**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawArrays.xhtml
+
+Commande OpenGL : **glMultiDrawElements**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawElements.xhtml
 
 Commande OpenGL : **glRenderbufferStorage**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml  
@@ -133,5 +187,14 @@ Commande OpenGL : **glReadPixels**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 
+Commande OpenGL : **glShaderSource**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glShaderSource.xhtml
+
 Commande OpenGL : **glUniform**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUniform.xhtml
+
+Commande OpenGL : **glUseProgram**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUseProgram.xhtml
+
+Commande OpenGL : **glVertexAttribPointer**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml
