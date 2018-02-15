@@ -66,6 +66,9 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glAttachShader.xhtml
 Commande OpenGL : **glBindAttribLocation**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindAttribLocation.xhtml
 
+Commande OpenGL : **glBindBuffer**  
+https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml
+
 Commande OpenGL : **glBindFramebuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
@@ -73,6 +76,12 @@ https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
 Commande OpenGL : **glBindRenderbuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
+
+Commande OpenGL : **glBufferData**  
+https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBufferData.xhtml
+
+Commande OpenGL : **glBufferSubData**  
+https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBufferSubData.xhtml
 
 Commande OpenGL : **glCheckFramebufferStatus**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
@@ -99,6 +108,9 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCompileShader.xhtml
 
 Commande OpenGL : **glCreateProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCreateProgram.xhtml
+
+Commande OpenGL : **glDeleteBuffers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteBuffers.xhtml
 
 Commande OpenGL : **glDeleteProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteProgram.xhtml
@@ -152,6 +164,9 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetVertexAttrib.xhtm
 Commande OpenGL : **glGetVertexAttribPointerv**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetVertexAttribPointerv.xhtml
 
+Commande OpenGL : **glGenBuffers**  
+https://khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml
+
 Commande OpenGL : **glGenFramebuffers**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
@@ -159,6 +174,9 @@ https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
 Commande OpenGL : **glGenRenderbuffers**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
+
+Commande OpenGL : **glIsBuffer**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsBuffer.xhtml
 
 Commande OpenGL : **glIsProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsProgram.xhtml
