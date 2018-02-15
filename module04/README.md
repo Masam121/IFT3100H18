@@ -29,3 +29,19 @@ Exemple d'importation et de rendu d'un teapot avec un shader de Lambert.
 Le shader est disponible en deux versions, soit une version de base pour OpenGL 2.1 (GLSL 120) et une version moderne pour OpenGL 3.3 (GLSL 330).
 
 Le fichier de géométrie du teapot et les shaders sont dans le répertoire ./bin/data.
+
+### Exemple #7
+
+Exemple d'une classe minimaliste pour stocker les données des sommets d'un maillage triangulaire.
+
+### Exemple #8
+
+Exemple d'une section de code pour créer d'un buffer de géométrie (vbo).
+
+### Exemple #9
+
+Exemple d'une section de code pour assigner les pointeurs vers chaque attribut de la structure de sommet d'un buffer de géométrie (pipeline fixe).
+
+### Exemple #10
+
+Exemple d'une section de code pour assigner les pointeurs vers chaque attribut de la structure de sommet d'un buffer de géométrie (pipeline moderne).
