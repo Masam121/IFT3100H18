@@ -45,3 +45,15 @@ Exemple d'une section de code pour assigner les pointeurs vers chaque attribut d
 ### Exemple #10
 
 Exemple d'une section de code pour assigner les pointeurs vers chaque attribut de la structure de sommet d'un buffer de géométrie (pipeline moderne).
+
+### Exemple #11
+
+Exemple de différentes approches pour faire le rendu d'un buffer de géométrie.
+
+### Exemple #12
+
+Exemple d'une section de code qui inverse en alternance deux buffers de géométrie utilisés pour la mise à jour et le rendu afin d'éviter de bloquer le pipeline de rendu.
+
+### Exemple #13
+
+Exemple de compilation d'un shader avec OpenGL.
