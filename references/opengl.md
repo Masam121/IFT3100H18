@@ -58,6 +58,9 @@ https://www.khronos.org/opengl/wiki/Pixel_Transfer
 Types primitifs  
 https://www.khronos.org/opengl/wiki/OpenGL_Type
 
+Spécifications sur les sommets  
+https://www.opengl.org/wiki/Vertex_Specification
+
 ## Commandes OpenGL
 
 Commande OpenGL : **glAttachShader**  
