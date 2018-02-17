@@ -148,6 +148,9 @@ https://developer.apple.com/documentation/glkit
 Tutorial: Transformations  
 http://open.gl/transformations
 
+Tutorial 17 : Rotations  
+http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-17-quaternions/
+
 Tutorial: OpenGL Transformation  
 http://www.songho.ca/opengl/gl_transform.html
 
