@@ -145,17 +145,20 @@ https://developer.apple.com/documentation/glkit
 
 ## Divers
 
-Tutorial: Transformations  
+Tutorial : Transformations  
 http://open.gl/transformations
 
 Tutorial 17 : Rotations  
 http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-17-quaternions/
 
-Tutorial: OpenGL Transformation  
+Tutorial : OpenGL Transformation  
 http://www.songho.ca/opengl/gl_transform.html
 
-Article: Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations  
+Tutorial : How to Rotate a Vertex by a Quaternion in GLSL  
+http://www.geeks3d.com/20141201/how-to-rotate-a-vertex-by-a-quaternion-in-glsl/
+
+Article : Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations  
 http://seanmiddleditch.com/matrices-handedness-pre-and-post-multiplication-row-vs-column-major-and-notations/
 
-Profiling: measurement and analysis (produit matriciel)  
+Profiling : measurement and analysis (produit matriciel)  
 https://engineering.riotgames.com/news/profiling-measurement-and-analysis
