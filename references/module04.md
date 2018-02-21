@@ -176,3 +176,6 @@ https://graphics.stanford.edu/data/3Dscanrep/
 
 Large Geometric Models Archive at Georgia Tech  
 http://www.cc.gatech.edu/projects/large_models/
+
+Wykobi - Computational Geometry Tutorial  
+http://wykobi.com/tutorial.html
