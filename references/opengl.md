@@ -63,6 +63,9 @@ https://www.opengl.org/wiki/Vertex_Specification
 
 ## Commandes OpenGL
 
+Commande OpenGL : **glActiveTexture**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glActiveTexture.xhtml
+
 Commande OpenGL : **glAttachShader**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glAttachShader.xhtml
 
@@ -73,12 +76,15 @@ Commande OpenGL : **glBindBuffer**
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml
 
 Commande OpenGL : **glBindFramebuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
 
 Commande OpenGL : **glBindRenderbuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
+
+Commande OpenGL : **glBindTexture**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindTexture.xhtml
 
 Commande OpenGL : **glBufferData**  
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBufferData.xhtml
@@ -137,7 +143,7 @@ Commande OpenGL : **glEnableVertexAttribArray**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glEnableVertexAttribArray.xhtml
 
 Commande OpenGL : **glFramebufferRenderbuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glFramebufferRenderbuffer
 
 Commande OpenGL : **glGet**  
@@ -158,6 +164,9 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xht
 Commande OpenGL : **glGetShaderSource**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderSource.xhtml
 
+Commande OpenGL : **glGetTexImage**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml
+
 Commande OpenGL : **glGetUniformLocation**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetUniformLocation.xhtml
 
@@ -170,13 +179,19 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetVertexAttribPoint
 Commande OpenGL : **glGenBuffers**  
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glGenBuffers.xhtml
 
+Commande OpenGL : **glGenerateMipmap**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenerateMipmap.xhtml
+
 Commande OpenGL : **glGenFramebuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
 
 Commande OpenGL : **glGenRenderbuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
+
+Commande OpenGL : **glGenTexture**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenTextures.xhtml
 
 Commande OpenGL : **glIsBuffer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glIsBuffer.xhtml
@@ -197,19 +212,28 @@ Commande OpenGL : **glMultiDrawElements**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawElements.xhtml
 
 Commande OpenGL : **glRenderbufferStorage**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
 
 Commande OpenGL : **glGetRenderbufferParameter**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
 
 Commande OpenGL : **glReadPixels**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 
 Commande OpenGL : **glShaderSource**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glShaderSource.xhtml
+
+Commande OpenGL : **glTexParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glTexParameter.xhtml
+
+Commande OpenGL : **glTexImage2D**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glTexImage2D.xhtml
+
+Commande OpenGL : **glTexSubImage2D**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glTexSubImage2D.xhtml
 
 Commande OpenGL : **glUniform**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUniform.xhtml
