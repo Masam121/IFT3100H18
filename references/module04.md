@@ -1,6 +1,6 @@
 # module 4 : géométrie
 
-Références en lien avec le module 4 : Géométrie.
+Références en lien avec le module 4 : géométrie.
 
 ## OpenGL
 

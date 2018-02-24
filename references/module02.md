@@ -1,6 +1,6 @@
 # module 2 : dessin vectoriel
 
-Références en lien avec le module 2 : Dessin vectoriel.
+Références en lien avec le module 2 : dessin vectoriel.
 
 ## Dessin vectoriel avec openFrameworks : ofGraphics
 http://openframeworks.cc/documentation/graphics/ofGraphics/

@@ -1,6 +1,6 @@
-# module 1 : Image 
+# module 1 : image
 
-Références en lien avec le module 1 : Image.
+Références en lien avec le module 1 : image.
 
 ## Wikipédia
 

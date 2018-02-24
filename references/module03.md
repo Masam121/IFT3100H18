@@ -1,6 +1,6 @@
 # module 3 : transformation
 
-Références en lien avec le module 3 : Transformation.
+Références en lien avec le module 3 : transformation.
 
 ## OpenGL
 
