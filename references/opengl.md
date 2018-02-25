@@ -86,6 +86,9 @@ https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
 Commande OpenGL : **glBindTexture**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindTexture.xhtml
 
+Commande OpenGL : **glBindSampler**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindSampler.xhtml
+
 Commande OpenGL : **glBufferData**  
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBufferData.xhtml
 
@@ -124,6 +127,9 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteBuffers.xhtml
 Commande OpenGL : **glDeleteProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteProgram.xhtml
 
+Commande OpenGL : **glDeleteSamplers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteSamplers.xhtml
+
 Commande OpenGL : **glDeleteShader**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteShader.xhtml
 
@@ -158,8 +164,15 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetAttachedShaders.x
 Commande OpenGL : **glGetProgram**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetProgram.xhtml
 
+Commande OpenGL : **glGetRenderbufferParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml
+https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
+
 Commande OpenGL : **glGetShaderInfoLog**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderInfoLog.xhtml
+
+Commande OpenGL : **glGetSamplerParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetSamplerParameter.xhtml
 
 Commande OpenGL : **glGetShaderSource**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetShaderSource.xhtml
@@ -190,6 +203,9 @@ Commande OpenGL : **glGenRenderbuffers**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
 
+Commande OpenGL : **glGenSamplers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenSamplers.xhtml
+
 Commande OpenGL : **glGenTexture**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenTextures.xhtml
 
@@ -215,13 +231,12 @@ Commande OpenGL : **glRenderbufferStorage**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
 
-Commande OpenGL : **glGetRenderbufferParameter**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml
-https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
-
 Commande OpenGL : **glReadPixels**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
+
+Commande OpenGL : **glSamplerParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glSamplerParameter.xhtml
 
 Commande OpenGL : **glShaderSource**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glShaderSource.xhtml
