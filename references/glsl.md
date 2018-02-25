@@ -7,6 +7,12 @@ https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
 
 ## Concepts OpenGL
 
+Vertex Shader  
+https://www.khronos.org/opengl/wiki/Vertex_Shader
+
+Fragment Shader  
+https://www.khronos.org/opengl/wiki/Fragment_Shader
+
 Sampler Object  
 https://www.khronos.org/opengl/wiki/Sampler_Object
 
