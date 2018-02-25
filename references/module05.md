@@ -74,6 +74,9 @@ http://en.wikipedia.org/wiki/Perlin_noise
 
 ## openFrameworks
 
+ofImage  
+http://openframeworks.cc/documentation/graphics/ofImage/
+
 ofPixels  
 http://openframeworks.cc/documentation/graphics/ofPixels/
 
@@ -97,7 +100,7 @@ http://open.gl/textures
 opengl-tutorial : Cube avec texture  
 http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
 
-nvidia : cubemap en OpenGL  
+Nvidia : OpenGL Cube Map Texturing (1999)
 http://www.nvidia.com/object/cube_map_ogl_tutorial.html
 
 Unreal : Comparaison de techniques de compression  
