@@ -2,7 +2,7 @@
 
 Références en lien avec le module 5 : texture.
 
-## OpenGL
+## Concepts OpenGL
 
 Texture  
 https://www.khronos.org/opengl/wiki/Texture
@@ -10,8 +10,16 @@ https://www.khronos.org/opengl/wiki/Texture
 Texture storage  
 https://www.khronos.org/opengl/wiki/Texture_Storage
 
+Sampler Object  
+https://www.khronos.org/opengl/wiki/Sampler_Object
+
 Mathematics of glTexGen  
 https://www.khronos.org/opengl/wiki/Mathematics_of_glTexGen
+
+Point Sprite  
+https://www.khronos.org/opengl/wiki/Primitive#Point_primitives
+
+## Commandes OpenGL
 
 Commande OpenGL : **glGenTexture**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenTextures.xhtml
@@ -36,6 +44,26 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml
 
 Commande OpenGL : **glGenerateMipmap**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenerateMipmap.xhtml
+
+Commande OpenGL : **glGenSamplers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenSamplers.xhtml
+
+Commande OpenGL : **glDeleteSamplers**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glDeleteSamplers.xhtml
+
+Commande OpenGL : **glBindSampler**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindSampler.xhtml
+
+Commande OpenGL : **glSamplerParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glSamplerParameter.xhtml
+
+Commande OpenGL : **glGetSamplerParameter**  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetSamplerParameter.xhtml
+
+## GLSL
+
+Sampler  
+https://www.khronos.org/opengl/wiki/Sampler_(GLSL)
 
 ## Wikipédia
 
@@ -100,7 +128,7 @@ http://open.gl/textures
 opengl-tutorial : Cube avec texture  
 http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
 
-Nvidia : OpenGL Cube Map Texturing (1999)
+Nvidia : OpenGL Cube Map Texturing (1999)  
 http://www.nvidia.com/object/cube_map_ogl_tutorial.html
 
 Unreal : Comparaison de techniques de compression  
