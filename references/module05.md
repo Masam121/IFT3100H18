@@ -74,13 +74,19 @@ http://en.wikipedia.org/wiki/Perlin_noise
 
 ## openFrameworks
 
-ofPixels
+ofPixels  
 http://openframeworks.cc/documentation/graphics/ofPixels/
 
-ofTexture
+ofTexture  
 http://openframeworks.cc/documentation/gl/ofTexture/
 
-ofBook : Textures
+ofFbo  
+http://openframeworks.cc/documentation/gl/ofFbo/
+
+ofFbo::Settings  
+http://openframeworks.cc/documentation/gl/ofFbo%3A%3ASettings/
+
+ofBook : Textures  
 http://openframeworks.cc/ofBook/chapters/openGL.html#textures
 
 ## Divers
