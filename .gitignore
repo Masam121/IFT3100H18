@@ -5,7 +5,7 @@
 *.slo
 *.lo
 *.o
-*.obj
+# *.obj (because we want geometry file)
 
 # Precompiled Headers
 *.gch
