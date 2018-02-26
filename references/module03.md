@@ -70,6 +70,9 @@ https://fr.wikipedia.org/wiki/Blocage_de_cardan
 Wikipedia : Gimbal lock  
 https://en.wikipedia.org/wiki/Gimbal_lock
 
+Wikipedia : Triangle inequality  
+https://en.wikipedia.org/wiki/Triangle_inequality
+
 ## openFrameworks
 
 Classe de vecteur 2D  
