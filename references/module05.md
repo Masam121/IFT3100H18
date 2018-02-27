@@ -120,6 +120,9 @@ http://openframeworks.cc/documentation/gl/ofFbo%3A%3ASettings/
 ofBook : Textures  
 http://openframeworks.cc/ofBook/chapters/openGL.html#textures
 
+ofEnableNormalizedTexCoords
+http://openframeworks.cc/documentation/gl/ofTexture/#show_ofEnableNormalizedTexCoords
+
 ## Divers
 
 open.gl : Texture et configuration des paramètres  
@@ -136,3 +139,6 @@ https://udn.epicgames.com/Two/TextureComparison.html
 
 MSDN: Block compression  
 http://msdn.microsoft.com/en-us/library/bb694531(v=vs.85).aspx
+
+Shaders in openFrameworks
+https://www.scribd.com/doc/54776025/Shaders-in-OpenFrameworks
