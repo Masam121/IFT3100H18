@@ -145,8 +145,14 @@ http://en.wikipedia.org/wiki/Rasterisation
 
 ## openFrameworks
 
-openFrameworks : **ofEnableDepthTest**  
+ofEnableDepthTest  
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofEnableDepthTest
+
+of3dPrimitive  
+http://openframeworks.cc/documentation/3d/of3dPrimitive/
+
+ofPlanePrimitive  
+http://openframeworks.cc/documentation/3d/ofPlanePrimitive/
 
 ## Librairies
 
