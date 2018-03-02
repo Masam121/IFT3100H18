@@ -121,7 +121,7 @@ int main(int argc, char* argv[])
   std::ofstream file;
   file.open(filename, std::ios::out);
 
-  // entête du ficher pour une image avec un espace de couleur en niveau de gris (P3 pour pixmap)
+  // entête du ficher pour une image avec un espace de couleur RGB 24 bits (P3 pour pixmap)
   file << "P3\n";
 
   // largeur et hauteur de l'image sur la seconde ligne de l'entête
