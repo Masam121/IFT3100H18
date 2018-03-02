@@ -84,7 +84,7 @@ int main(int argc, char* argv[])
   file.open(filename, std::ios::out);
 
   // entête du ficher pour une image avec un espace de couleur en niveau de gris (P2 pour graymap)
-  file << "P2" << '\n';
+  file << "P2\n";
 
   // largeur et hauteur de l'image sur la seconde ligne de l'entête
   file << width << ' ' << height << '\n';
