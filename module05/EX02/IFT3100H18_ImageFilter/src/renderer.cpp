@@ -5,7 +5,7 @@
 
 void Renderer::setup()
 {
-  ofSetFrameRate(0);
+  ofSetFrameRate(60);
   ofSetBackgroundColor(0);
   ofSetColor(255);
   ofSetLogLevel(OF_LOG_VERBOSE);
