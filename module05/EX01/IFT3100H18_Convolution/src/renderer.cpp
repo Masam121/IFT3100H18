@@ -5,7 +5,7 @@
 
 void Renderer::setup()
 {
-  ofSetFrameRate(0);
+  ofSetFrameRate(60);
   ofSetBackgroundColor(0);
 
   // définir la valeur de l'espacements vertical et horizontal
