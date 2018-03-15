@@ -311,30 +311,35 @@ Il existe au moins 1 texture de type cubemap qui est utilisée dans le rendu d'a
 \subsection{Point de vue}
 
 \state
+Il est possible de transformer une caméra par rapport à une ou des entités géométriques et l'utilisateur peut manipuler interactivement la caméra pour voir la position centrale de la sélection de différents points de vue, en plus de pouvoir s'en approcher et s'en éloigner.
 
 \qed
 
 \subsection{Mode de projection}
 
 \state
+Au moins deux type de mode de projection (ex: perspective et orthogonale) sont supportés par l'application et offrent à l'utilisateur un point de vue cohérent de la scène.
 
 \qed
 
 \subsection{Agencement}
 
 \state
+Il est possible de voir une scène de plusieurs points de vue différents, en pleine fenêtre ou avec des sous-fenêtres d'affichage dans la fenêtre principale de l'application où le rendu est fait en simultané dans chaque fenêtre.
 
 \qed
 
 \subsection{Occlusion}
 
 \state
+L'application utilise un algorithme d'occlusion de pour tenter de minimiser le nombre d'éléments du graphe de scène à rendre du point de vus d'une caméra (ex: algorithmes de type BVH, BSP, quadtree, octree, kd-tree, etc). Les techniques d'occlusion de bases sont exclues pour ce critère (ex: faces inversées, occlusion du frustum de vision, algorithme du peintre, z-buffer).
 
 \qed
 
 \subsection{Portail}
 
 \state
+Un moins un effet visuel présent dans une scène est réalisé à partir d'une caméra qui rend dans une texture du contenu qui est ensuite affiché dans une scène rendue par une autre caméra (ex: portail, mirroir, effet de réflexion, écran présent dans une scène où est affichée le contenu d'un autre point de vue de la scène, etc). 
 
 \qed
 
