@@ -125,7 +125,7 @@ Il est possible d'exporter des rendus d'une scène dans des fichiers images.
 \subsection{Échantillonnage d'image}
 
 \state
-Il est possible de dessiner une image qui a été générée par un agencement d'échantillons de pixels ou de blocs de pixels en provenance d'une autre image.
+Il est possible de dessiner une image qui a été générée par un agencement d'échantillofaces inverséesns de pixels ou de blocs de pixels en provenance d'une autre image.
 
 \qed
 
@@ -332,14 +332,14 @@ Il est possible de voir une scène de plusieurs points de vue différents, en pl
 \subsection{Occlusion}
 
 \state
-L'application utilise une technique d'occlusion autre celles de base pour tenter de minimiser le nombre d'éléments du graphe de scène à rendre du point de vus d'une caméra (ex: BVH, quadtree, octree, etc).
+L'application utilise une technique d'occlusion autre que celles de base pour tenter de minimiser le nombre d'éléments du graphe de scène à rendre du point de vue d'une caméra (ex: BVH, quadtree, octree, etc).
 
 \qed
 
 \subsection{Portail}
 
 \state
-Un moins un effet visuel présent dans une scène est réalisé à partir d'une caméra qui rend dans une texture du contenu qui est ensuite affiché dans une scène rendue par une autre caméra (ex: portail, mirroir, effet de réflexion, écran de surveillance, etc). 
+Un moins 1 effet visuel présent dans une scène est réalisé à partir d'une caméra qui rend dans une texture du contenu qui est ensuite affiché dans une scène rendue par une autre caméra (ex: portail, mirroir, effet de réflexion, écran de surveillance, etc). 
 
 \qed
 
@@ -351,30 +351,34 @@ Un moins un effet visuel présent dans une scène est réalisé à partir d'une 
 \subsection{Modèles d'illumination}
 
 \state
-
+Le rendu d'au moins 3 éléments visuels est fait à partir d'au moins 3 modèles d'illumination différents (ex: lambert, gouraud, phong, blinn-phong ou autre). 
 \qed
 
 \subsection{Matériaux}
 
 \state
+Au moins 3 éléments visuels d'une scène ont une surface avec un matériau sélectionné parmi un ensemble d'au moins 3 matériaux différents. 
 
 \qed
 
 \subsection{Types de lumière}
 
 \state
+Il est possible d'avoir au moins une instance de 4 types de lumières différents (ambiante, directionnelle, ponctuelle, projecteur ou autre).
 
 \qed
 
 \subsection{Volume de lumière}
 
 \state
+Il existe au moins 1 type de lumière qui permet d'émettre de la lumière seulement à l'intérieur d'un volume délimité par un modèle géométrique.
 
 \qed
 
 \subsection{Lumières multiples}
 
 \state
+Possibilité d'avoir au moins 4 différentes instances de lumière dynamique dont la couleur, la position et l'atténuation sont prises en compte lors des calculs d'illumination d'au moins 1 type de matériau.
 
 \qed
 
