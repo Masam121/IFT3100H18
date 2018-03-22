@@ -23,11 +23,11 @@ void Renderer::setup()
   switch (gl_version_major)
   {
     case 2:
-      shader.load("lambert_v120_vs.glsl", "lambert_v120_fs.glsl");
+      shader.load("lambert_120_vs.glsl", "lambert_120_fs.glsl");
       break;
 
     case 3:
-      shader.load("lambert_v330_vs.glsl", "lambert_v330_fs.glsl");
+      shader.load("lambert_330_vs.glsl", "lambert_330_fs.glsl");
       break;
   }
 
