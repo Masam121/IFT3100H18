@@ -5,7 +5,7 @@
 
 void Application::setup()
 {
-  if(ofIsGLProgrammableRenderer())
+  if (ofIsGLProgrammableRenderer())
   {
     renderer.gl_version_major = 3;
     renderer.gl_version_minor = 3;

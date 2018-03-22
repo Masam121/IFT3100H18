@@ -14,12 +14,9 @@ public:
   Renderer renderer;
 
   void setup();
-
   void update();
-
   void draw();
+  void exit();
 
   void keyReleased(int key);
-
-  void exit();
 };
