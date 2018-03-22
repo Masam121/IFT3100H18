@@ -1,4 +1,4 @@
-// IFT3100H18 ~ lambert_v120_vs.glsl
+// IFT3100H18 ~ lambert_120_vs.glsl
 
 #version 120
 
