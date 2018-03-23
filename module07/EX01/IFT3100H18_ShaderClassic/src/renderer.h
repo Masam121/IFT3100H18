@@ -15,13 +15,13 @@ public:
 
   ShaderType shader_active;
 
-  ofShader shader;
-
   ofShader shader_color_fill;
   ofShader shader_lambert;
   ofShader shader_gouraud;
   ofShader shader_phong;
   ofShader shader_blinn_phong;
+
+  ofShader* shader;
 
   ofLight light;
 

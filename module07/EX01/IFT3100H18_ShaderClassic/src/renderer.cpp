@@ -9,6 +9,7 @@ void Renderer::setup()
   ofSetSphereResolution(32);
   ofSetBackgroundColor(0);
   ofEnableDepthTest();
+  ofSetLogLevel(OF_LOG_VERBOSE);
 
   // paramètres
   oscillation_amplitude = 32.0f;
@@ -112,52 +113,52 @@ void Renderer::update()
   {
     case ShaderType::color_fill:
       shader_name = "Color Fill";
-      shader = shader_color_fill;
-      shader.begin();
-      shader.setUniform3f("color", 1.0f, 1.0f, 0.0f);
-      shader.end();
+      shader = &shader_color_fill;
+      shader->begin();
+      shader->setUniform3f("color", 1.0f, 1.0f, 0.0f);
+      shader->end();
       break;
 
     case ShaderType::lambert:
       shader_name = "Lambert";
-      shader = shader_lambert;
-      shader.begin();
-      shader.setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
-      shader.setUniform3f("colorDiffuse",  0.6f, 0.6f, 0.6f);
-      shader.end();
+      shader = &shader_lambert;
+      shader->begin();
+      shader->setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
+      shader->setUniform3f("colorDiffuse",  0.6f, 0.6f, 0.6f);
+      shader->end();
       break;
 
     case ShaderType::gouraud:
       shader_name = "Gouraud";
-      shader = shader_gouraud;
-      shader.begin();
-      shader.setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
-      shader.setUniform3f("colorDiffuse",  0.6f, 0.6f, 0.0f);
-      shader.setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
-      shader.setUniform1f("brightness", oscillation);
-      shader.end();
+      shader = &shader_gouraud;
+      shader->begin();
+      shader->setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
+      shader->setUniform3f("colorDiffuse",  0.6f, 0.6f, 0.0f);
+      shader->setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
+      shader->setUniform1f("brightness", oscillation);
+      shader->end();
       break;
 
     case ShaderType::phong:
       shader_name = "Phong";
-      shader = shader_phong;
-      shader.begin();
-      shader.setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
-      shader.setUniform3f("colorDiffuse",  0.6f, 0.0f, 0.6f);
-      shader.setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
-      shader.setUniform1f("brightness", oscillation);
-      shader.end();
+      shader = &shader_phong;
+      shader->begin();
+      shader->setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
+      shader->setUniform3f("colorDiffuse",  0.6f, 0.0f, 0.6f);
+      shader->setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
+      shader->setUniform1f("brightness", oscillation);
+      shader->end();
       break;
 
     case ShaderType::blinn_phong:
       shader_name = "Blinn-Phong";
-      shader = shader_blinn_phong;
-      shader.begin();
-      shader.setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
-      shader.setUniform3f("colorDiffuse",  0.0f, 0.6f, 0.6f);
-      shader.setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
-      shader.setUniform1f("brightness", oscillation);
-      shader.end();
+      shader = &shader_blinn_phong;
+      shader->begin();
+      shader->setUniform3f("colorAmbient",  0.1f, 0.1f, 0.1f);
+      shader->setUniform3f("colorDiffuse",  0.0f, 0.6f, 0.6f);
+      shader->setUniform3f("colorSpecular", 1.0f, 1.0f, 0.0f);
+      shader->setUniform1f("brightness", oscillation);
+      shader->end();
       break;
 
     default:
@@ -193,10 +194,10 @@ void Renderer::draw()
       ofRotate(45.0f, 1.0f, 0.0f, 0.0f);
 
       // activer le shader
-      shader.begin();
+      shader->begin();
 
       // passer la position de la lumière au shader
-      shader.setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
 
       // dessiner un cube
       ofDrawBox(0.0f, 0.0f, 0.0f, scale_cube);
@@ -212,7 +213,7 @@ void Renderer::draw()
         position_sphere.z);
 
       // passer la position de la lumière au shader
-      shader.setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
 
       // dessiner une sphère
       ofDrawSphere(0.0f, 0.0f, 0.0f, scale_sphere);
@@ -234,7 +235,7 @@ void Renderer::draw()
         scale_teapot);
 
       // passer la position de la lumière au shader
-      shader.setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("lightPosition", light.getGlobalPosition() * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
 
       // dessiner un teapot
       teapot.draw(OF_MESH_FILL);
@@ -244,7 +245,7 @@ void Renderer::draw()
   ofPopMatrix();
 
   // désactiver le shader
-  shader.end();
+  shader->end();
 
   // désactiver la lumière
   light.disable();
